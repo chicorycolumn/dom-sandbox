@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checklist App</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div>
+      <img
+        id="glitchPunishment"
+        style="display:none"
+        src="https://i.pinimg.com/originals/e4/a6/d5/e4a6d53be1a230e1a25a692d41f312a8.png"
+        alt="A glitchy background."
+      />
+    </div>
+    <div id="erasable" style="display:block">
+      <h2>Today's Tasks</h2>
+      <ul id="tasks" style="list-style-type:none">
+        <img
+          id="fonzie"
+          style="display:none"
+          src="https://lh3.googleusercontent.com/proxy/LIw5DOmWPFk9N3Tb8-0id4cHdLpt0vULN9v3gY2P5_SVc7LwAwqAgYmsYopZrijBlnD6f-31FnEV2myCOsh5K2AJuUpggL9IoRHozU5-8J4Dy1qqwADC31Hx6335rbv9p-oPmcZaM6aW"
+          alt="Arthur Fonzarelli giving a gesture of goodwill."
+        />
+        <li class="tasks">☐ Buy wraps</li>
+        <li class="tasks">☐ Write raps</li>
+        <li class="tasks">☐ Knuckle raps</li>
+        <li class="tasks">☐ Ponder apps</li>
+      </ul>
+
+      <h2>Pick a random task!</h2>
+      <p>Today I will...</p>
+      <p id="activity">[click to roll]</p>
+
+      <h2>Please do not click this button</h2>
+      <button id="badButton" type="button">No</button>
+    </div>
+  </body>
+</html>
