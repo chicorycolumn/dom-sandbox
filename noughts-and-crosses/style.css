@@ -1,0 +1,21 @@
+.body {
+  background-color: cyan;
+}
+
+.wrapper {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 1px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  height: 60px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
